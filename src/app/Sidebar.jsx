@@ -61,7 +61,7 @@ const Sidebar = () => {
           </li>
           <li>
             <Link
-              href="/courses"
+              href="/"
               className={`w-full h-11 inline-flex items-center text-right gap-3  rounded-xl text-white transition-colors hover:bg-background hover:text-black px-4
             ${
               pathname === "/courses"
@@ -75,7 +75,7 @@ const Sidebar = () => {
           </li>
           <li>
             <Link
-              href="/wishlist"
+              href="/"
               className={`w-full h-11 inline-flex items-center text-right gap-3  rounded-xl text-white transition-colors hover:bg-background hover:text-black px-4
             ${
               pathname === "/wishlist"
@@ -89,7 +89,7 @@ const Sidebar = () => {
           </li>
           <li>
             <Link
-              href="/financial"
+              href="/"
               className={`w-full h-11 inline-flex items-center text-right gap-3  rounded-xl text-white transition-colors hover:bg-background hover:text-black px-4
             ${
               pathname === "/financial"
@@ -103,7 +103,7 @@ const Sidebar = () => {
           </li>
           <li>
             <Link
-              href="/comments"
+              href="/"
               className={`w-full h-11 inline-flex items-center text-right gap-3  rounded-xl text-white transition-colors hover:bg-background hover:text-black px-4
             ${
               pathname === "/comments"
@@ -117,7 +117,7 @@ const Sidebar = () => {
           </li>
           <li>
             <Link
-              href="/notifications"
+              href="/"
               className={`w-full h-11 inline-flex items-center text-right gap-3  rounded-xl text-white transition-colors hover:bg-background hover:text-black px-4
             ${
               pathname === "/notifications"
@@ -134,7 +134,7 @@ const Sidebar = () => {
       <ul className="flex flex-col space-y-3 rounded-2xl p-5">
         <li>
           <Link
-            href="/financial"
+            href="/"
             className={`w-full h-11 inline-flex items-center text-right gap-3  rounded-xl text-white transition-colors hover:bg-background hover:text-black px-4
             ${
               pathname === "/financial"
@@ -148,7 +148,7 @@ const Sidebar = () => {
         </li>
         <li>
           <Link
-            href="/comments"
+            href="/"
             className={`w-full h-11 inline-flex items-center text-right gap-3  rounded-xl text-white transition-colors hover:bg-background hover:text-black px-4
             ${
               pathname === "/comments"
