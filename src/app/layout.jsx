@@ -1,4 +1,3 @@
-"use client";
 import vazirFont from "@/constants/localFonts";
 import "./globals.css";
 import Header from "./Header";
